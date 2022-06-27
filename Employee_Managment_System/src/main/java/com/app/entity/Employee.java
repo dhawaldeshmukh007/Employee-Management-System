@@ -40,7 +40,9 @@ public class Employee {
 		
 	}
 
-	public Employee(int id, String name, String email, String phone) {/* Paramaterized constructor */ 
+	{/* Paramaterized constructor */ 
+		
+	public Employee(int id, String name, String email, String phone) 
 		super();
 		this.id = id;
 		this.name = name;
@@ -86,6 +88,7 @@ public class Employee {
 
 	
 	/* To String */
+	
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + "]";
